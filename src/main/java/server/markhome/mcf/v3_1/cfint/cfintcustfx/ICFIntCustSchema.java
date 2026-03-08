@@ -1,7 +1,7 @@
 // Description: Java 13 Cust JavaFX Schema Interface.
 
 /*
- *	io.github.msobkow.CFInt
+ *	server.markhome.mcf.CFInt
  *
  *	Copyright (c) 2020-2025 Mark Stephen Sobkow
  *	
@@ -32,15 +32,15 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfint.cfintcustfx;
+package server.markhome.mcf.v3_1.cfint.cfintcustfx;
 
-import io.github.msobkow.v3_1.cflib.*;
-import io.github.msobkow.v3_1.cflib.dbutil.*;
-import io.github.msobkow.v3_1.cflib.xml.*;
-import io.github.msobkow.v3_1.cflib.javafx.*;
-import io.github.msobkow.v3_1.cfsec.cfseccustfx.*;
-import io.github.msobkow.v3_1.cfint.cfintobj.*;
-import io.github.msobkow.v3_1.cfint.cfintjavafx.*;
+import server.markhome.mcf.v3_1.cflib.*;
+import server.markhome.mcf.v3_1.cflib.dbutil.*;
+import server.markhome.mcf.v3_1.cflib.xml.*;
+import server.markhome.mcf.v3_1.cflib.javafx.*;
+import server.markhome.mcf.v3_1.cfsec.cfseccustfx.*;
+import server.markhome.mcf.v3_1.cfint.cfintobj.*;
+import server.markhome.mcf.v3_1.cfint.cfintjavafx.*;
 
 /**
  *	The ICFIntSwingSchema defines the interface for the shared schema
