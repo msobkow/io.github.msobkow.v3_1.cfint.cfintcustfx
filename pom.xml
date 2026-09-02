@@ -4,12 +4,12 @@
   <parent>
     <groupId>server.markhome.mcf</groupId>
     <artifactId>server.markhome.mcf.v3_1</artifactId>
-    <version>3.1.42</version>
+    <version>3.1.${env.buildString}-${env.BUILD_STAMP}</version>
   </parent>
 
   <groupId>server.markhome.mcf.v3_1</groupId>
   <artifactId>server.markhome.mcf.v3_1.cfint.cfintcustfx</artifactId>
-  <version>3.1.42</version>
+  <version>3.1.${env.buildString}-${env.BUILD_STAMP}</version>
   <name>server.markhome.mcf.v3_1.cfint.cfintcustfx</name>
   <description>mcf 3.1 CFInt cfintcustfx - Customization of JavaFX components for CFInt applications</description>
   <url>mailto:mark.sobkow@gmail.com</url>
@@ -26,7 +26,7 @@
 	<commons-codec.version>1.21.0</commons-codec.version>
 	<commons-text.version>1.15.0</commons-text.version>
 	<jaxb-api.version>2.4.0-b180725.0427</jaxb-api.version>
-    <mcf.version>3.1.42</mcf.version>
+    <mcf.version>3.1.${env.buildString}-${env.BUILD_STAMP}</mcf.version>
 	<postgresql.version>42.7.11</postgresql.version>
 	<jakarta-annotation-api.version>3.0.0</jakarta-annotation-api.version>
 	<jakarta-persistence-api.version>3.2.0</jakarta-persistence-api.version>
